@@ -1,0 +1,94 @@
+// git --version
+
+
+// git config --list
+// to know global username or email
+// git config user.name
+
+// to set name and email
+// git config --global user.name "abhi"
+
+// mkdir name
+// cd name
+
+// on the folder
+// git init
+
+// git status
+
+
+/*Files in your Git repository folder can be in one of 2 states:
+
+Tracked - files that Git knows about and are added to the repository
+Untracked - files that are in your working directory, but not added to the repository
+*/
+
+// to add files in staging area
+// git add name.ext
+// git add -all // to add all files
+// git add .
+
+// commit is point where we can go back (if we want)
+// git commit -m "jai shree ram"
+
+// directly commit without doing staging area
+// git commit -a -m "jai shree ram"
+
+// git log
+
+
+// Branch
+// git branch name
+// git branch // to know all the branches
+
+// git checkout name
+
+
+// emergency branch
+// git checkout -b emergency-fix
+
+
+// press q when you stuch in git log or git help
+
+
+// 
+
+// Github
+
+
+// to push existing repo,
+/*
+copy url from repo of github
+git remote add origin url
+
+to push
+git push --set-upstream origin master
+
+*/
+
+
+
+// fetch merge : pull
+
+// git fetch origin
+// git diff origin/master (to see changes)
+//git merge orgin/master
+// 
+// git pull origin master
+
+
+// git push
+
+
+
+
+
+// git clone url
+
+// git remote -v
+// git remote rename origin upstream
+// git remote add origin url
+
+
+// git revert
+// git reset
